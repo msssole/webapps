@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>msssole Web Apps</title>
+	</head>
+	<body>
+		<style>
+			nav {
+				position: fixed;
+				right: 0;
+				float: right;
+				width: 40%;
+				background: #eee;
+				font-size: 0.8em;
+				padding: 1em 2em;
+				margin: 0 0 0.5em 0.5em;
+			}
+		</style>
+		<header>
+			<h1>Web Apps</h1>
+			<nav>
+				<div id="toc"></div>
+			</nav>
+		</header>
+		<main>
+			<article>
+				<p>contents</p>
+			</article>
+		</main>
+		<aside>
+			<p>side bar </p>
+		</aside>
+		<footer>
+			<address id="address"></address>
+			<script>
+				document.getElementById("address").innerHTML = window.location.href;
+			</script>
+		</footer>
+	</body>
+</html>
